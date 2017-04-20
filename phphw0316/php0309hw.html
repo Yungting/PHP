@@ -1,0 +1,65 @@
+<html>
+
+<head>
+<title>高大路跑報名表單</title>
+</head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+<body background="123.png" width="90%">
+<font face="微軟正黑體" size="7"><b>	高大路跑報名表單	</b></font>
+<br><br>
+<font face="微軟正黑體" size="5">
+<pre>歡迎大家來參加高大路跑~
+以下為路跑資訊!!
+<table>
+<tr><td>時間：</td><td>2017/3/6(日)</td></tr>
+<tr><td>地點：</td><td>高雄大學門口</td></tr>
+<tr><td>路跑範圍：</td><td><a href="http://pe.nuk.edu.tw/images/stories/location.jpg">校園100圈</a></td></tr>
+<tr><td>附註：</td><td>請自行準備水瓶、毛巾、換洗衣物等等用品<br>在各點皆有設置醫護站</td></tr>
+</table>
+祝您有個美好的一天!!</pre>
+<a href="http://pe.nuk.edu.tw/images/stories/location.jpg" target="new">
+<img src="http://pe.nuk.edu.tw/images/stories/location.jpg" width="40%">
+</a>
+
+
+</font>
+<br><br>
+<form action="php0316hw.php" method="get">
+<font face="微軟正黑體" size="5">聯絡人資料</font><br><br>
+姓名：<br><input type="text" name="name"><br>
+聯絡電話：<br><input type="text" name="phone"><br>
+Email：<br><input type="email" name="mail"><br>
+性別：<br>
+<input type="radio" name="gender" value="male">Male
+<input type="radio" name="gender" value="fmale">Fmale<br>
+
+<br><br><font face="微軟正黑體" size="5">參賽資訊</font><br><br>
+時段選擇：
+<select name="time[]" multiple="true"><br>
+<option value="moning">時段1－09:00~12:00</option>
+<option value="afternoon">時段2－14:00~17:00</option>
+<option value="night">時段3－19:00~21:00</option>
+</select>
+<br>參賽獎品：<br>
+<input type="checkbox" name="gift[]" value="Tshirt">高大潮T
+<input type="checkbox" name="gift[]" value="shoes">高大潮鞋
+<input type="checkbox" name="gift[]" value="towel">高大運動毛巾<br>
+T-shirt size：<br>
+<input type="radio" name="size" value="XL">XL
+<input type="radio" name="size" value="L">L
+<input type="radio" name="size" value="M">M
+<input type="radio" name="size" value="S">S<br>
+
+<br><br><font face="微軟正黑體" size="5">意見回饋</font><br><br>
+若有任何問題或是要提供寶貴意見，請輸入至下面框框內：<br>
+<textarea name="text" rows="10" cols="50"></textarea><br>
+
+<input type="submit" value="send"><br><br>
+<a href="#top">回到最頂端</a>
+
+
+</body>
+
+<html>
